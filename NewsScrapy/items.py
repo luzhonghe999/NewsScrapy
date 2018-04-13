@@ -12,3 +12,12 @@ class NewsscrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class EastmoneyScrapyItem(scrapy.Item):
+    date = scrapy.Field()
+    author = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+    url = scrapy.Field()
+    category1 = scrapy.Field()
+    category2 = scrapy.Field()
